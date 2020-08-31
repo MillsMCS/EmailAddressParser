@@ -16,6 +16,30 @@ public class EmailAddressParser {
      * {@code false} otherwise
      */
     public static boolean isValid(String email) {
-        return false;
+        return true;
+    }
+    
+    /**
+     * Gets the user name associated with the provided email address.
+     * The user name is the portion before the at-sign (@).
+     * 
+     * @param email the email address
+     * @return the user name
+     * @throws IllegalArgumentException if the email address is malformed
+     */
+    public static String getUserName(String email) {
+    	return null;
+    }
+    
+    /**
+     * Gets the host name associated with the provided email address.
+     * The user name is the portion after the at-sign (@).
+     * 
+     * @param email the email address
+     * @return the host name
+     * @throws IllegalArgumentException if the email address is malformed
+     */
+    public static String getHostName(String email) {
+    	return null;
     }
 }
